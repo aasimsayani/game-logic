@@ -1,0 +1,38 @@
+<DOCTYPE html>
+<html>
+
+
+
+
+
+
+
+
+<script>
+  //Whats Your Adventure -- Vigilante Animal Game
+  let x = prompt( "What is your favorite animal?" )
+    alert(`What if your ${x} could come to life?`)
+  let y = confirm( `Would you like to find out what hap pens when ${x} comes to life?`)
+  if (y === true){
+    let z = prompt( `What would the personality of the ${x} be?` )
+    alert(`Unfortunately, your ${x} chose a different character than ${z}, and chose to become a vigilante.`)
+  }
+  let x2 = prompt( `Your ${x} was strolling down the street in Manhattan and saw a bodega being held up and a hot dog being stolen. Which one should your ${x} tend to the bodega or hot dog stand?`)
+    if (x2.length > 6 ) {
+      alert(`Unfortnately, the man robbing the bodega killed several people and you failed. Your ${x} tried their best.`) ;
+    }
+    else if(x2.length === 6) {
+      alert( `Your ${x}saved the day! Hooray proceed to the next vigilante challenged`);
+    }
+  let y2 = prompt(`Which train should your ${x} take to get to Brooklyn from 14th ST Union Square?`  )
+  switch(y2){
+    case number:
+      y2 = prompt(`This train got stuck deep in tunnel. Pick another train`);
+      break;
+    case l:
+      y2 = confirm(`This train has been attacked by the rat monsters. You see a can of pesticide. Would you like to use it?`);
+      break;
+  }
+</script>
+
+</html>
